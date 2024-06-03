@@ -1,0 +1,13 @@
+[package]
+name = "game_loop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glam = "0.27.0"
+
+[dependencies.sdl2]
+version = "0.36"
+default-features = false
+#features = ["ttf","image","gfx","mixer","static-link","bundled"]
+features = ["static-link", "bundled"]
